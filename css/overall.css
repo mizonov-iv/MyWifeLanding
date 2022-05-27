@@ -1,0 +1,36 @@
+.container {
+    max-width: 1400px;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+.site-container {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+}
+.btn-reset {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black-color);
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 374px;
+        padding: 15px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px 15px;
+    }
+}

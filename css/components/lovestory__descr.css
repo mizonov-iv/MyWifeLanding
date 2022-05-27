@@ -1,0 +1,52 @@
+.lovestory__descr-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.lovestory__descr-subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.lovestory__descr-list {
+    display: flex;
+    justify-content: center;
+}
+.lovestory__descr-list-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.lovestory__descr-list-item {
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.75px
+}
+
+@media (max-width: 375px) {
+    .lovestory__descr-list {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lovestory__descr-list-item {
+        width: 100%;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .lovestory__descr-list {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lovestory__descr-list-item {
+        width: 100%;
+        margin-bottom: 7px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,76 @@
+.main {
+    margin-bottom: 20px;
+}
+.swiper {
+    margin: 0 auto;
+    max-width: 700px;
+    overflow: hidden;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.slide-content {
+    min-height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide-1 {
+    background-image: url(../../img/3.jpg);
+}
+.slide-2 {
+    background-image: url(../../img/4.jpg);
+}
+.slide-3 {
+    background-image: url(../../img/5.jpg);
+}
+.slide-4 {
+    background-image: url(../../img/6.jpg);
+}
+.slide-5 {
+    background-image: url(../../img/7.jpg);
+}
+.slide-6 {
+    background-image: url(../../img/8.jpg);
+}
+.slide-7 {
+    background-image: url(../../img/9.jpg);
+}
+.slide-8 {
+    background-image: url(../../img/10.jpg);
+}
+.slide-9 {
+    background-image: url(../../img/11.jpg);
+}
+.slide-10 {
+    background-image: url(../../img/12.jpg);
+}
+
+.slide-11 {
+    background-image: url(../../img/13.jpg);
+}
+
+.slide-12 {
+    background-image: url(../../img/14.jpg);
+}
+
+
+@media (max-width: 375px) {
+    .main {
+        margin-bottom: 15px;
+    }
+    .swiper {
+        max-width: 360px;
+    }
+    .slide-content {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin-bottom: 10px;
+    }
+}

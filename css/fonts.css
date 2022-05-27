@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf') format('ttf');
+	/* font-display: swap; */
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+/* @font-face {
+	font-family: 'SmoochSans';
+	src: url('../fonts/SmoochSans-Regular.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SmoochSans';
+	src: url('../fonts/SmoochSans-Medium.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SmoochSans';
+	src: url('../fonts/SmoochSans-Bold.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Smooch';
+	src: url('../fonts/Smooch-Regular.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster-Regular.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DancingScript';
+	src: url('../fonts/DancingScript-Medium.ttf') format('ttf');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'DancingScript';
+	src: url('../fonts/DancingScript-Medium.ttf') format('ttf');
+} */

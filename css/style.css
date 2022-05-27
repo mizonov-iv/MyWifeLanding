@@ -1,0 +1,21 @@
+@import 'variables.css';
+@import 'fonts.css';
+@import 'global.css';
+@import 'normalize.css';
+@import 'overall.css';
+
+@import 'components/header.css';
+@import 'components/main.css';
+@import 'components/descr.css';
+@import 'components/portfolio.css';
+@import 'components/social.css';
+@import 'components/individual-descr.css';
+@import 'components/individual__portfolio.css';
+
+@import 'components/lovestory__descr.css';
+@import 'components/lovestory__portfolio.css';
+
+@import 'components/content__descr.css';
+@import 'components/content__portfolio.css';
+
+@import 'components/contacts.css';

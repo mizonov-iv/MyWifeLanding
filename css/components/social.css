@@ -1,0 +1,31 @@
+.social__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.social__list {
+    margin: 0 auto;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__link {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social__link-vk {
+    background-image: url(../../icons/vk.svg);
+}
+
+.social__link-tm {
+    background-image: url(../../icons/tm.svg);
+}

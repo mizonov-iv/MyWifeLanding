@@ -1,0 +1,27 @@
+.individual__portfolio {
+}
+.container {
+}
+.individual__portfolio__list {
+    max-width: 800px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+.individual-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(250px, auto);
+}
+.individual__portfolio__item {
+}
+.individual__portfolio__img {
+}
+
+@media (max-width: 375px) {
+    .individual-grid {
+        grid-gap: 15px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(250px, auto);
+    }
+}

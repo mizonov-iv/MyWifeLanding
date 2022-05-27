@@ -1,0 +1,27 @@
+.lovestory__portfolio {
+}
+.container {
+}
+.lovestory__portfolio__list {
+    max-width: 800px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+.lovestory-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(250px, auto);
+}
+.lovestory__portfolio__item {
+}
+.lovestory__portfolio__img {
+}
+
+@media (max-width: 375px) {
+    .lovestory-grid {
+        grid-gap: 15px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(250px, auto);
+    }
+}
